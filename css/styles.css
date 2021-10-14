@@ -1,0 +1,49 @@
+/* general background color and fonts for the page */
+body {background-color:#2E4172;
+font-family: Arial, Helvetica, sans-serif;}
+
+/* color for page name header */
+h1, h2 {font-family: Haettenschweiller, fantasy;
+color:#7887AB;}
+
+/* color for subheaders */
+h3 {font-family: Courier, Monospace;
+background-color: #7887AB;}
+
+/* background color for paragraphs */
+p, ul {background-color: #7887AB;}
+
+/* nav bar only stylization */
+ul#navigation{
+    background-color: #7887AB;
+    width:570px;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+    border-top: 6px solid #000;
+    border-bottom: 6px solid #000;
+    text-align: center;
+}
+
+ul#navigation>li{
+    display: inline;
+    margin: 0px 20px;
+    font-family: Haettenschweiller, fantasy;
+    font-size:x-large;
+}
+
+ul#media {
+    background-color: #2E4172;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+ul#media>li{
+    display: inline;
+    margin: 0px 20px;
+}
+
+.album {
+    background-color: #7887AB;
+    padding: 0px 0px 10px 0px;
+}
